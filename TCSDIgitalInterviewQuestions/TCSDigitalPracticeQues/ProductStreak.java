@@ -28,7 +28,7 @@ public class ProductStreak {
             int diff = count0 - count1;
             if (diff == 0) {
                 maxLength = i + 1;
-                startIndex = 0;
+                startIndex = 1;
                 endIndex = i + 1;
             } else if (counts[diff + num] != 0) {
                 int length = i - counts[diff + num] + 1;
